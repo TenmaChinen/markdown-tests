@@ -29,8 +29,6 @@ for idx, d_exercise in enumerate(l_exercises,1):
   ```
 </details>
 
-<br>
-
   '''
 
   markdown += q_template

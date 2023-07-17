@@ -1,10 +1,7 @@
-## Exercise 1
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>List all the records in the Payments table. Display only the first 10 rows of results.</p>
-    <img src='https://o.quizlet.com/s6CRKkbrFMSNvYkUrbJm7w.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
 
-<br>
+| EXERCISE 1 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>List all the records in the Payments table. Display only the first 10 rows of results.</p> | <img src='https://o.quizlet.com/s6CRKkbrFMSNvYkUrbJm7w.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -14,13 +11,11 @@
   ```
 </details>
 
-  ## Exercise 2
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for checkNumber in the Payments table.</p>
-    <img src='https://o.quizlet.com/zRTojj3d1wCRR8ANC9TIiA.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 2 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for checkNumber in the Payments table.</p> | <img src='https://o.quizlet.com/zRTojj3d1wCRR8ANC9TIiA.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -30,13 +25,11 @@
   ```
 </details>
 
-  ## Exercise 3
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for paymentDate in the Payments</p>
-    <img src='https://o.quizlet.com/3caCJrvcshSo30jHm4beqA.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 3 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for paymentDate in the Payments</p> | <img src='https://o.quizlet.com/3caCJrvcshSo30jHm4beqA.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -46,13 +39,11 @@
   ```
 </details>
 
-  ## Exercise 4
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for amount in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 4 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for amount in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -62,13 +53,11 @@
   ```
 </details>
 
-  ## Exercise 5
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for customerNumber in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 5 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for customerNumber in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -78,13 +67,11 @@
   ```
 </details>
 
-  ## Exercise 6
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for checkNumber in the Payments table. Sort the results by checkNumber.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 6 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for checkNumber in the Payments table. Sort the results by checkNumber.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -95,13 +82,11 @@ ORDER BY checkNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 7
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for checkNumber in the Payments table. Sort the results by checkNumber in descending order.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 7 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for checkNumber in the Payments table. Sort the results by checkNumber in descending order.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -112,13 +97,11 @@ ORDER BY checkNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 8
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for paymentDate in the Payments table. Sort the results by paymentDate.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 8 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for paymentDate in the Payments table. Sort the results by paymentDate.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -129,13 +112,11 @@ ORDER BY paymentDate LIMIT 10;
   ```
 </details>
 
-  ## Exercise 9
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for paymentDate in the Payments table. Sort the results by paymentDate in descending order.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 9 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for paymentDate in the Payments table. Sort the results by paymentDate in descending order.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -146,13 +127,11 @@ ORDER BY paymentDate DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 10
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for customerNumber in the Payments table. Sort the results by customerNumber.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 10 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for customerNumber in the Payments table. Sort the results by customerNumber.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -163,13 +142,11 @@ ORDER BY customerNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 11
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display all the values for customerNumber in the Payments table. Sort the results by customerNumber in descending order.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 11 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display all the values for customerNumber in the Payments table. Sort the results by customerNumber in descending order.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -180,13 +157,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 12
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the values for checkNumber and paymentDate in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 12 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the values for checkNumber and paymentDate in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -196,13 +171,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 13
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the values for checkNumber and amount in the Payments table. Display only hte first</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 13 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the values for checkNumber and amount in the Payments table. Display only hte first</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -212,13 +185,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 14
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the values for checkNumber and customerNumber in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 14 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the values for checkNumber and customerNumber in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -228,13 +199,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 15
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display a list of unique customerNumber values in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 15 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display a list of unique customerNumber values in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -244,13 +213,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 16
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the smallest amount value in the Payments table. Label the result 'Smallest Payment'.</p>
-    <img src='https://o.quizlet.com/gbzIpu70s4EGxP1W9en9gw.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 16 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the smallest amount value in the Payments table. Label the result 'Smallest Payment'.</p> | <img src='https://o.quizlet.com/gbzIpu70s4EGxP1W9en9gw.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -260,13 +227,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 17
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the largest amount value in the Payments table. Label the result "Largest Payment"</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 17 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the largest amount value in the Payments table. Label the result "Largest Payment"</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -276,13 +241,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 18
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the average amount value in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 18 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the average amount value in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -292,13 +255,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 19
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the earliest paymentDate value in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 19 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the earliest paymentDate value in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -308,13 +269,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 20
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the latest paymentDate value in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 20 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the latest paymentDate value in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -324,13 +283,11 @@ ORDER BY customerNumber DESC LIMIT 10;
   ```
 </details>
 
-  ## Exercise 21
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerNumber and the total payment amount assigned to that customerNumber in the Payments table. Display only the first 10 rows of results.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 21 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerNumber and the total payment amount assigned to that customerNumber in the Payments table. Display only the first 10 rows of results.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -341,13 +298,11 @@ GROUP BY customerNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 22
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerNumber and the average payment amount assigned to that customerNumber in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 22 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerNumber and the average payment amount assigned to that customerNumber in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -358,13 +313,11 @@ GROUP BY customerNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 23
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Calculate the number of rows in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 23 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Calculate the number of rows in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -374,13 +327,11 @@ GROUP BY customerNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 24
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Count the number of unique customerNumber values in the Payments table.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 24 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Count the number of unique customerNumber values in the Payments table.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -390,13 +341,11 @@ GROUP BY customerNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 25
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerNumber values for those customerNumbers in the Payments table that have values less than 200.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 25 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerNumber values for those customerNumbers in the Payments table that have values less than 200.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -407,13 +356,11 @@ WHERE customerNumber < 200 LIMIT 10;
   ```
 </details>
 
-  ## Exercise 26
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerNumber values for those customerNumbers in the Payments table that have values between 200 and 400.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 26 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerNumber values for those customerNumbers in the Payments table that have values between 200 and 400.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -424,13 +371,11 @@ WHERE customerNumber BETWEEN 200 AND 400 LIMIT 10;
   ```
 </details>
 
-  ## Exercise 27
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerNumber values for those customerNumbers in the Payments table that have values greater than 400.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 27 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerNumber values for those customerNumbers in the Payments table that have values greater than 400.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -441,13 +386,11 @@ WHERE customerNumber > 400 LIMIT 10;
   ```
 </details>
 
-  ## Exercise 28
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the paymentDate values for those records in the Payments table in which the payment date is earlier than 12/31/2003.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 28 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the paymentDate values for those records in the Payments table in which the payment date is earlier than 12/31/2003.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -458,13 +401,11 @@ WHERE paymentDate < '2003-12-31' LIMIT 10;
   ```
 </details>
 
-  ## Exercise 29
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the paymentDate values for those records in the Payments table in which the payment date is between 12/31/2003 and 12/31/2004.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 29 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the paymentDate values for those records in the Payments table in which the payment date is between 12/31/2003 and 12/31/2004.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -475,13 +416,11 @@ WHERE paymentDate BETWEEN '2003-12-31' AND '2004-12-31' LIMIT 10;
   ```
 </details>
 
-  ## Exercise 30
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the paymentDate values for those records in the Payments table in which the payment date is 02/02/2005.</p>
-    None
-</div>
-
 <br>
+  
+| EXERCISE 30 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the paymentDate values for those records in the Payments table in which the payment date is 02/02/2005.</p> |  |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -492,13 +431,11 @@ WHERE paymentDate = '2005-02-02' LIMIT 10;
   ```
 </details>
 
-  ## Exercise 31
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the amount values for those records in the Payments table in which the amount values is less than the average amount value in the Payments table. Sort the results by payment amount from highest to lowest amount. Display only the first 10 rows of results.</p>
-    <img src='https://o.quizlet.com/5DWkLtdOZs8YyW2tsxwIFg.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 31 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the amount values for those records in the Payments table in which the amount values is less than the average amount value in the Payments table. Sort the results by payment amount from highest to lowest amount. Display only the first 10 rows of results.</p> | <img src='https://o.quizlet.com/5DWkLtdOZs8YyW2tsxwIFg.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -510,13 +447,11 @@ ORDER BY amount DESC LIMIT 10 LIMIT 10;
   ```
 </details>
 
-  ## Exercise 32
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the amount values for those records in the Payments table in which the amount values is less than the average amount value in the Payments table.</p>
-    <img src='https://o.quizlet.com/Ck4NbukWGQr7jYtxNIh8Tw.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 32 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the amount values for those records in the Payments table in which the amount values is less than the average amount value in the Payments table.</p> | <img src='https://o.quizlet.com/Ck4NbukWGQr7jYtxNIh8Tw.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -527,13 +462,11 @@ WHERE amount > (SELECT AVG(amount) FROM Payments) LIMIT 10;
   ```
 </details>
 
-  ## Exercise 33
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerName, paymentDate, and amount from the Payments and Customers tables. Display only the first 10 rows of results.</p>
-    <img src='https://o.quizlet.com/HnwSdDqQSM0Y8KEjWMkCBg.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 33 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerName, paymentDate, and amount from the Payments and Customers tables. Display only the first 10 rows of results.</p> | <img src='https://o.quizlet.com/HnwSdDqQSM0Y8KEjWMkCBg.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -544,13 +477,11 @@ JOIN Payments p ON p.customerNumber = c.customerNumber ORDER BY c.customerName L
   ```
 </details>
 
-  ## Exercise 34
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerName, phone and latest paymentDate for each customer in the Payments and Customers tables. Label the latest paymentDate column as Last Payment Date. Display only the first 10 rows of results.</p>
-    <img src='https://o.quizlet.com/W4vipBaaF6RFUzbCINASsA.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 34 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerName, phone and latest paymentDate for each customer in the Payments and Customers tables. Label the latest paymentDate column as Last Payment Date. Display only the first 10 rows of results.</p> | <img src='https://o.quizlet.com/W4vipBaaF6RFUzbCINASsA.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -563,13 +494,11 @@ GROUP BY c.customerName LIMIT 10;
   ```
 </details>
 
-  ## Exercise 35
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display a list of country values in the Customers table along with the number of customers in each country. The list should be in alphabetical order. Display only the first 10 rows of results.</p>
-    <img src='https://o.quizlet.com/B10JG13zKEFBysOzNao7bw.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 35 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display a list of country values in the Customers table along with the number of customers in each country. The list should be in alphabetical order. Display only the first 10 rows of results.</p> | <img src='https://o.quizlet.com/B10JG13zKEFBysOzNao7bw.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -581,13 +510,11 @@ ORDER BY country LIMIT 10;
   ```
 </details>
 
-  ## Exercise 36
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display a list of country values in the Customers table along with the number of payments for each country. Label the number of payments column 'Payments'. The list should be in alphabetical order. Display only the first 10 rows of results.</p>
-    <img src='https://o.quizlet.com/GgX38NsY35FfIktEvy-P9w.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 36 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display a list of country values in the Customers table along with the number of payments for each country. Label the number of payments column 'Payments'. The list should be in alphabetical order. Display only the first 10 rows of results.</p> | <img src='https://o.quizlet.com/GgX38NsY35FfIktEvy-P9w.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -601,13 +528,11 @@ ORDER BY c.country LIMIT 10;
   ```
 </details>
 
-  ## Exercise 37
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display a list of orderNumber and orderDate values from the Orders table. Display only the first 10 rows of results.</p>
-    <img src='https://o.quizlet.com/7L6-kqw3IxcfxfHwP.yQXg.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 37 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display a list of orderNumber and orderDate values from the Orders table. Display only the first 10 rows of results.</p> | <img src='https://o.quizlet.com/7L6-kqw3IxcfxfHwP.yQXg.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -617,13 +542,11 @@ ORDER BY c.country LIMIT 10;
   ```
 </details>
 
-  ## Exercise 38
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerName, orderNumber, and orderDate values from the Customers and Orders tables. Display only the first 10 rows of results.</p>
-    <img src='https://o.quizlet.com/Yupt4zHi2qDcscAwZHwPNQ.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 38 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerName, orderNumber, and orderDate values from the Customers and Orders tables. Display only the first 10 rows of results.</p> | <img src='https://o.quizlet.com/Yupt4zHi2qDcscAwZHwPNQ.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -634,13 +557,11 @@ JOIN Orders o ON o.customerNumber = c.customerNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 39
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the orderNumber, orderDate, and value of each order from the Orders and OrderDetails tables. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Order Value". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p>
-    <img src='https://o.quizlet.com/dMujZr6rV6PsGluxPZgsTw.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 39 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the orderNumber, orderDate, and value of each order from the Orders and OrderDetails tables. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Order Value". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p> | <img src='https://o.quizlet.com/dMujZr6rV6PsGluxPZgsTw.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -652,13 +573,11 @@ GROUP BY o.orderNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 40
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerName, orderNumber, and value of each order from the Orders and OrderDetails tables. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Order Value". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p>
-    <img src='https://o.quizlet.com/m5sTr4KmhbbbsnE57h0tww.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 40 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerName, orderNumber, and value of each order from the Orders and OrderDetails tables. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Order Value". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p> | <img src='https://o.quizlet.com/m5sTr4KmhbbbsnE57h0tww.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -670,13 +589,11 @@ GROUP BY o.orderNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 41
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerName, and value of all orders made by that customer. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Value of All Orders". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p>
-    <img src='https://o.quizlet.com/Uzj3WcJaFY-GsFt7m3PT8A.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 41 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerName, and value of all orders made by that customer. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Value of All Orders". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p> | <img src='https://o.quizlet.com/Uzj3WcJaFY-GsFt7m3PT8A.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -690,13 +607,11 @@ GROUP BY c.customerNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 42
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the customerNumber, orderNumber, and productName values for each order using the Orders, OrderDetails, and Products tables. Display only the first ten results.</p>
-    <img src='https://o.quizlet.com/b.oHVecKN8tuPLmoGzuxzA.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 42 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerNumber, orderNumber, and productName values for each order using the Orders, OrderDetails, and Products tables. Display only the first ten results.</p> | <img src='https://o.quizlet.com/b.oHVecKN8tuPLmoGzuxzA.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -709,13 +624,11 @@ JOIN Orders o ON o.orderNumber = od.orderNumber LIMIT 10;
   ```
 </details>
 
-  ## Exercise 43
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the lastName of each Employee followed by the lastName of the Employee they report to. Display only the first ten results.</p>
-    <img src='https://o.quizlet.com/WPhr2nvxHjwWkMkeNLekxg.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 43 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the lastName of each Employee followed by the lastName of the Employee they report to. Display only the first ten results.</p> | <img src='https://o.quizlet.com/WPhr2nvxHjwWkMkeNLekxg.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -726,13 +639,11 @@ JOIN Employees b ON e.reportsTo = b.employeeNumber;
   ```
 </details>
 
-  ## Exercise 44
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>Display the firstName and lastName of each manager followed by the firstName and lastName of each employee they supervise. Sort the results by the lastName of each manager. Display only the first ten results.</p>
-    <img src='https://o.quizlet.com/dgEr6APvgECz8u6xWIPvbg.png' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>
-</div>
-
 <br>
+  
+| EXERCISE 44 |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>Display the firstName and lastName of each manager followed by the firstName and lastName of each employee they supervise. Sort the results by the lastName of each manager. Display only the first ten results.</p> | <img src='https://o.quizlet.com/dgEr6APvgECz8u6xWIPvbg.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -745,4 +656,5 @@ ORDER BY b.lastName LIMIT 10;
   ```
 </details>
 
+<br>
   

@@ -8,18 +8,20 @@ for idx, d_exercise in enumerate(l_exercises,1):
   image_url = d_exercise['image_url']
 
   if image_url:
-    image_html = f'''<img src='{image_url}' alt='Image' style='flex: 1; max-width: 200px; max-height: 200px;'>'''
+    image_html = f'''<img src='{image_url}' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'>'''
   else:
-    image_html = None
+    image_html = ''
 
+# <div style='display: flex; align-items: center; column-gap:4px'>
+#     <p style='font-size:20px; flex: 5;'>{question_text}</p>
+#     {image_html}
+# </div>
+# #Exercise {idx}
   q_template = \
-  f'''## Exercise {idx}
-<div style='display: flex; align-items: center; column-gap:4px'>
-    <p style='font-size:20px; flex: 5;'>{question_text}</p>
-    {image_html}
-</div>
-
-<br>
+  f'''
+| EXERCISE {idx} |  |
+| :--- | :---: |
+| <p style='font-size:16px;font-weight:bold;'>{question_text}</p> | {image_html} |
 
 <details>
   <summary>Click here to see the answer</summary>
@@ -29,6 +31,7 @@ for idx, d_exercise in enumerate(l_exercises,1):
   ```
 </details>
 
+<br>
   '''
 
   markdown += q_template

@@ -16,7 +16,7 @@ for idx, d_exercise in enumerate(l_exercises,1):
   if image_url:
     image_html = f'''<img src='{image_url}' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'>'''
     table_md = f'''
-| EXERCISE {idx} |  |
+| EXERCISE {idx} | SAMPLE |
 | :--- | :---: |
 | <p style='font-size:16px;font-weight:bold;'>{question_text}</p> | {image_html} |
 '''

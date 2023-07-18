@@ -9,7 +9,7 @@
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT * FROM Payments LIMIT 10;
+SELECT * FROM payments LIMIT 10;
   ```
 </details>
 
@@ -25,7 +25,7 @@ SELECT * FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT checkNumber FROM Payments LIMIT 10;
+SELECT check_number FROM payments LIMIT 10;
   ```
 </details>
 
@@ -41,7 +41,7 @@ SELECT checkNumber FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT paymentDate FROM Payments LIMIT 10;
+SELECT payment_date FROM payments LIMIT 10;
   ```
 </details>
 
@@ -57,7 +57,7 @@ SELECT paymentDate FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT amount FROM Payments LIMIT 10;
+SELECT amount FROM payments LIMIT 10;
   ```
 </details>
 
@@ -73,7 +73,7 @@ SELECT amount FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT customerNumber FROM Payments LIMIT 10;
+SELECT customer_number FROM payments LIMIT 10;
   ```
 </details>
 
@@ -89,8 +89,8 @@ SELECT customerNumber FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT checkNumber FROM Payments
-ORDER BY checkNumber LIMIT 10;
+SELECT check_number FROM payments
+ORDER BY check_number LIMIT 10;
   ```
 </details>
 
@@ -106,8 +106,8 @@ ORDER BY checkNumber LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT checkNumber FROM Payments
-ORDER BY checkNumber DESC LIMIT 10;
+SELECT check_number FROM payments
+ORDER BY check_number DESC LIMIT 10;
   ```
 </details>
 
@@ -123,8 +123,8 @@ ORDER BY checkNumber DESC LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT paymentDate FROM Payments
-ORDER BY paymentDate LIMIT 10;
+SELECT payment_date FROM payments
+ORDER BY payment_date LIMIT 10;
   ```
 </details>
 
@@ -140,8 +140,8 @@ ORDER BY paymentDate LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT paymentDate FROM Payments
-ORDER BY paymentDate DESC LIMIT 10;
+SELECT payment_date FROM payments
+ORDER BY payment_date DESC LIMIT 10;
   ```
 </details>
 
@@ -157,8 +157,8 @@ ORDER BY paymentDate DESC LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT customerNumber FROM Payments
-ORDER BY customerNumber LIMIT 10;
+SELECT customer_number FROM payments
+ORDER BY customer_number LIMIT 10;
   ```
 </details>
 
@@ -174,8 +174,8 @@ ORDER BY customerNumber LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT customerNumber FROM Payments
-ORDER BY customerNumber DESC LIMIT 10;
+SELECT customer_number FROM payments
+ORDER BY customer_number DESC LIMIT 10;
   ```
 </details>
 
@@ -191,7 +191,7 @@ ORDER BY customerNumber DESC LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT checkNumber, paymentDate FROM Payments LIMIT 10;
+SELECT check_number, payment_date FROM payments LIMIT 10;
   ```
 </details>
 
@@ -207,7 +207,7 @@ SELECT checkNumber, paymentDate FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT checkNumber, amount FROM Payments LIMIT 10;
+SELECT check_number, amount FROM payments LIMIT 10;
   ```
 </details>
 
@@ -223,7 +223,7 @@ SELECT checkNumber, amount FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT checkNumber, customerNumber FROM Payments LIMIT 10;
+SELECT check_number, customer_number FROM payments LIMIT 10;
   ```
 </details>
 
@@ -239,7 +239,7 @@ SELECT checkNumber, customerNumber FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT DISTINCT(customerNumber) FROM Payments LIMIT 10;
+SELECT DISTINCT(customer_number) FROM payments LIMIT 10;
   ```
 </details>
 
@@ -255,7 +255,7 @@ SELECT DISTINCT(customerNumber) FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT MIN(amount) AS 'Smallest Payment' FROM Payments;
+SELECT MIN(amount) AS 'smallest payment' FROM payments;
   ```
 </details>
 
@@ -271,7 +271,7 @@ SELECT MIN(amount) AS 'Smallest Payment' FROM Payments;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT MAX(amount) AS "Largest Payment" FROM Payments;
+SELECT MAX(amount) AS "largest payment" FROM payments;
   ```
 </details>
 
@@ -287,7 +287,7 @@ SELECT MAX(amount) AS "Largest Payment" FROM Payments;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT AVG(amount) FROM Payments LIMIT 10;
+SELECT AVG(amount) FROM payments LIMIT 10;
   ```
 </details>
 
@@ -303,7 +303,7 @@ SELECT AVG(amount) FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT MIN(paymentDate) FROM Payments LIMIT 10;
+SELECT MIN(payment_date) FROM payments LIMIT 10;
   ```
 </details>
 
@@ -319,7 +319,7 @@ SELECT MIN(paymentDate) FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT MAX(paymentDate) FROM Payments LIMIT 10;
+SELECT MAX(payment_date) FROM payments LIMIT 10;
   ```
 </details>
 
@@ -335,8 +335,8 @@ SELECT MAX(paymentDate) FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT customerNumber, SUM(amount) FROM Payments
-GROUP BY customerNumber LIMIT 10;
+SELECT customer_number, SUM(amount) FROM payments
+GROUP BY customer_number LIMIT 10;
   ```
 </details>
 
@@ -352,8 +352,8 @@ GROUP BY customerNumber LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT customerNumber, AVG(amount) FROM Payments
-GROUP BY customerNumber LIMIT 10;
+SELECT customer_number, AVG(amount) FROM payments
+GROUP BY customer_number LIMIT 10;
   ```
 </details>
 
@@ -369,7 +369,7 @@ GROUP BY customerNumber LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT COUNT(*) FROM Payments LIMIT 10;
+SELECT COUNT(*) FROM payments LIMIT 10;
   ```
 </details>
 
@@ -385,7 +385,7 @@ SELECT COUNT(*) FROM Payments LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT COUNT(DISTINCT(customerNumber)) LIMIT 10;
+SELECT COUNT(DISTINCT(customer_number)) LIMIT 10;
   ```
 </details>
 
@@ -401,8 +401,8 @@ SELECT COUNT(DISTINCT(customerNumber)) LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT customerNumber FROM Payments
-WHERE customerNumber < 200 LIMIT 10;
+SELECT customer_number FROM payments
+WHERE customer_number < 200 LIMIT 10;
   ```
 </details>
 
@@ -418,8 +418,8 @@ WHERE customerNumber < 200 LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT customerNumber FROM Payments
-WHERE customerNumber BETWEEN 200 AND 400 LIMIT 10;
+SELECT customer_number FROM payments
+WHERE customer_number BETWEEN 200 AND 400 LIMIT 10;
   ```
 </details>
 
@@ -435,8 +435,8 @@ WHERE customerNumber BETWEEN 200 AND 400 LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT customerNumber FROM Payments
-WHERE customerNumber > 400 LIMIT 10;
+SELECT customer_number FROM payments
+WHERE customer_number > 400 LIMIT 10;
   ```
 </details>
 
@@ -452,8 +452,8 @@ WHERE customerNumber > 400 LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT paymentDate FROM Payments
-WHERE paymentDate < '2003-12-31' LIMIT 10;
+SELECT payment_date FROM payments
+WHERE payment_date < '2003-12-31' LIMIT 10;
   ```
 </details>
 
@@ -469,8 +469,8 @@ WHERE paymentDate < '2003-12-31' LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT paymentDate FROM Payments
-WHERE paymentDate BETWEEN '2003-12-31' AND '2004-12-31' LIMIT 10;
+SELECT payment_date FROM payments
+WHERE payment_date BETWEEN '2003-12-31' AND '2004-12-31' LIMIT 10;
   ```
 </details>
 
@@ -486,8 +486,8 @@ WHERE paymentDate BETWEEN '2003-12-31' AND '2004-12-31' LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT paymentDate FROM Payments
-WHERE paymentDate = '2005-02-02' LIMIT 10;
+SELECT payment_date FROM payments
+WHERE payment_date = '2005-02-02' LIMIT 10;
   ```
 </details>
 
@@ -503,8 +503,8 @@ WHERE paymentDate = '2005-02-02' LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT amount FROM Payments
-WHERE amount < (SELECT AVG(amount) FROM Payments)
+SELECT amount FROM payments
+WHERE amount < (SELECT AVG(amount) FROM payments)
 ORDER BY amount DESC LIMIT 10 LIMIT 10;
   ```
 </details>
@@ -521,8 +521,8 @@ ORDER BY amount DESC LIMIT 10 LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT amount FROM Payments
-WHERE amount > (SELECT AVG(amount) FROM Payments) LIMIT 10;
+SELECT amount FROM payments
+WHERE amount > (SELECT AVG(amount) FROM payments) LIMIT 10;
   ```
 </details>
 
@@ -538,8 +538,8 @@ WHERE amount > (SELECT AVG(amount) FROM Payments) LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT c.customerName, p.paymentDate, p.amount FROM Customers c
-JOIN Payments p ON p.customerNumber = c.customerNumber ORDER BY c.customerName LIMIT 10;
+SELECT c.customer_name, p.payment_date, p.amount FROM customers c
+JOIN payments p ON p.customer_number = c.customer_number ORDER BY c.customer_name LIMIT 10;
   ```
 </details>
 
@@ -555,10 +555,10 @@ JOIN Payments p ON p.customerNumber = c.customerNumber ORDER BY c.customerName L
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT c.customerName, c.phone, MAX(p.paymentDate) AS 'Last Payment Date'
-FROM Customers c
-JOIN Payments p ON p.customerNumber = c.customerNumber
-GROUP BY c.customerName LIMIT 10;
+SELECT c.customer_name, c.phone, MAX(p.payment_date) AS 'last payment date'
+FROM customers c
+JOIN payments p ON p.customer_number = c.customer_number
+GROUP BY c.customer_name LIMIT 10;
   ```
 </details>
 
@@ -574,7 +574,7 @@ GROUP BY c.customerName LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT country, COUNT(*) FROM Customers
+SELECT country, COUNT(*) FROM customers
 GROUP BY country
 ORDER BY country LIMIT 10;
   ```
@@ -592,9 +592,9 @@ ORDER BY country LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT c.country, COUNT(p.checkNumber) AS 'Payments'
-FROM Customers c
-JOIN Payments p ON p.customerNumber = c.customerNumber
+SELECT c.country, COUNT(p.check_number) AS 'payments'
+FROM customers c
+JOIN payments p ON p.customer_number = c.customer_number
 GROUP BY c.country
 ORDER BY c.country LIMIT 10;
   ```
@@ -612,7 +612,7 @@ ORDER BY c.country LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT orderNumber, orderDate FROM Orders LIMIT 10;
+SELECT order_number, order_date FROM orders LIMIT 10;
   ```
 </details>
 
@@ -628,8 +628,8 @@ SELECT orderNumber, orderDate FROM Orders LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT c.customerName, o.orderNumber, o.orderDate FROM Customers c
-JOIN Orders o ON o.customerNumber = c.customerNumber LIMIT 10;
+SELECT c.customer_name, o.order_number, o.order_date FROM customers c
+JOIN orders o ON o.customer_number = c.customer_number LIMIT 10;
   ```
 </details>
 
@@ -638,16 +638,16 @@ JOIN Orders o ON o.customerNumber = c.customerNumber LIMIT 10;
 
 | EXERCISE 39 | SAMPLE |
 | :--- | :---: |
-| <p style='font-size:16px;font-weight:bold;'>Display the orderNumber, orderDate, and value of each order from the Orders and OrderDetails tables. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Order Value". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p> | <img src='https://o.quizlet.com/dMujZr6rV6PsGluxPZgsTw.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
+| <p style='font-size:16px;font-weight:bold;'>Display the orderNumber, orderDate, and value of each order from the Orders and order_details tables. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Order Value". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p> | <img src='https://o.quizlet.com/dMujZr6rV6PsGluxPZgsTw.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 
 <details>
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT o.orderNumber, o.orderDate, FORMAT(SUM(od.quantityOrdered*od.priceEach),2) AS 'Order Value' FROM Orders o
-JOIN OrderDetails od ON od.orderNumber = o.orderNumber
-GROUP BY o.orderNumber LIMIT 10;
+SELECT o.order_number, o.order_date, FORMAT(SUM(od.quantity_ordered*od.price_each),2) AS 'order value' FROM orders o
+JOIN order_details od ON od.order_number = o.order_number
+GROUP BY o.order_number LIMIT 10;
   ```
 </details>
 
@@ -656,16 +656,16 @@ GROUP BY o.orderNumber LIMIT 10;
 
 | EXERCISE 40 | SAMPLE |
 | :--- | :---: |
-| <p style='font-size:16px;font-weight:bold;'>Display the customerName, orderNumber, and value of each order from the Orders and OrderDetails tables. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Order Value". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p> | <img src='https://o.quizlet.com/m5sTr4KmhbbbsnE57h0tww.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerName, orderNumber, and value of each order from the Orders and order_details tables. The value of each order is calculated by multiplying quantityOrdered by priceEach. Label the calculated column "Order Value". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.</p> | <img src='https://o.quizlet.com/m5sTr4KmhbbbsnE57h0tww.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 
 <details>
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT c.customerName, o.orderNumber, FORMAT(SUM(od.quantityOrdered*od.priceEach),2) AS 'Order Value' FROM Customers c
-JOIN Orders o ON o.customerNumber = c.customerNumber JOIN OrderDetails od ON od.orderNumber = o.orderNumber
-GROUP BY o.orderNumber LIMIT 10;
+SELECT c.customer_name, o.order_number, FORMAT(SUM(od.quantity_ordered*od.price_each),2) AS 'order value' FROM customers c
+JOIN orders o ON o.customer_number = c.customer_number JOIN order_details od ON od.order_number = o.order_number
+GROUP BY o.order_number LIMIT 10;
   ```
 </details>
 
@@ -681,11 +681,11 @@ GROUP BY o.orderNumber LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT c.customerName, FORMAT(SUM(od.quantityOrdered*od.priceEach),2) AS 'Value of All Orders'
-FROM Customers c
-JOIN Orders o ON o.customerNumber = c.customerNumber
-JOIN OrderDetails od ON od.orderNumber = o.orderNumber
-GROUP BY c.customerNumber LIMIT 10;
+SELECT c.customer_name, FORMAT(SUM(od.quantity_ordered*od.price_each),2) AS 'value of all orders'
+FROM customers c
+JOIN orders o ON o.customer_number = c.customer_number
+JOIN order_details od ON od.order_number = o.order_number
+GROUP BY c.customer_number LIMIT 10;
   ```
 </details>
 
@@ -694,17 +694,17 @@ GROUP BY c.customerNumber LIMIT 10;
 
 | EXERCISE 42 | SAMPLE |
 | :--- | :---: |
-| <p style='font-size:16px;font-weight:bold;'>Display the customerNumber, orderNumber, and productName values for each order using the Orders, OrderDetails, and Products tables. Display only the first ten results.</p> | <img src='https://o.quizlet.com/b.oHVecKN8tuPLmoGzuxzA.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
+| <p style='font-size:16px;font-weight:bold;'>Display the customerNumber, orderNumber, and productName values for each order using the Orders, order_details, and Products tables. Display only the first ten results.</p> | <img src='https://o.quizlet.com/b.oHVecKN8tuPLmoGzuxzA.png' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'> |
 
 
 <details>
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT o.customerNumber, od.orderNumber, pr.productName
-FROM OrderDetails od
-JOIN Products pr ON pr.productCode = od.productCode
-JOIN Orders o ON o.orderNumber = od.orderNumber LIMIT 10;
+SELECT o.customer_number, od.order_number, pr.product_name
+FROM order_details od
+JOIN products pr ON pr.product_code = od.product_code
+JOIN orders o ON o.order_number = od.order_number LIMIT 10;
   ```
 </details>
 
@@ -720,8 +720,8 @@ JOIN Orders o ON o.orderNumber = od.orderNumber LIMIT 10;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT e.lastName, b.lastName FROM Employees e
-JOIN Employees b ON e.reportsTo = b.employeeNumber;
+SELECT e.last_name, b.last_name FROM employees e
+JOIN employees b ON e.reports_to = b.employee_number;
   ```
 </details>
 
@@ -737,10 +737,10 @@ JOIN Employees b ON e.reportsTo = b.employeeNumber;
   <summary>Click here to see the answer</summary>
   
   ```sql
-SELECT b.firstName, b.lastName, e.firstName, e.lastName
-FROM Employees e
-JOIN Employees b ON e.reportsTo = b.employeeNumber
-ORDER BY b.lastName LIMIT 10;
+SELECT b.first_name, b.last_name, e.first_name, e.last_name
+FROM employees e
+JOIN employees b ON e.reports_to = b.employee_number
+ORDER BY b.last_name LIMIT 10;
   ```
 </details>
 

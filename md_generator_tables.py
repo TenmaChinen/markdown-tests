@@ -32,12 +32,12 @@ for idx, d_exercise in enumerate(l_exercises,1):
 
     if sample:
         if 'https' in sample:
-            sample_content = f"<img src='{sample}' alt='Image' style='flex: 1; max-width: 300px; max-height: 200px;'>"
+            sample_content = f"<img src='{sample}' alt='Image' style='flex: 1; max-width: 300px; min-height:100px; max-height: 200px;'>"
         else:
             sample_content = sample
 
         table_md = f'''
-<table border=2 width=100%>
+<table border=1 width=100%>
 <tr>
     <th align="left">EXERCISE {idx}</th>
     <th align="center">OUTPUT</th>
@@ -55,7 +55,7 @@ for idx, d_exercise in enumerate(l_exercises,1):
 '''
     else:
         table_md = f'''
-<table border=2 width=100%>
+<table border=1 width=100%>
 <tr><th align="left">EXERCISE {idx}</th></tr>
 <tr>
     <td>{question_text}</td>

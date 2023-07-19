@@ -1,0 +1,285 @@
+{
+  "tables": [
+    "sqlite_sequence",
+    "offices",
+    "employees",
+    "customers",
+    "orders",
+    "payments",
+    "product_lines",
+    "products",
+    "order_details"
+  ],
+  "fields": [
+    "credit_limit",
+    "html_description",
+    "postal_code",
+    "address_line_1",
+    "product_name",
+    "quantity_ordered",
+    "product_code",
+    "customer_name",
+    "payment_date",
+    "city",
+    "email",
+    "amount",
+    "quantity_in_stock",
+    "order_number",
+    "shipped_date",
+    "price_each",
+    "comments",
+    "job_title",
+    "image",
+    "product_description",
+    "required_date",
+    "product_scale",
+    "check_number",
+    "address_line_2",
+    "first_name",
+    "phone",
+    "contact_first_name",
+    "sales_rep_employee_number",
+    "status",
+    "seq",
+    "state",
+    "product_line",
+    "office_code",
+    "country",
+    "contact_last_name",
+    "text_description",
+    "extension",
+    "order_line_Number",
+    "product_vendor",
+    "msrp",
+    "reports_to",
+    "name",
+    "employee_number",
+    "last_name",
+    "buy_price",
+    "territory",
+    "customer_number",
+    "order_date"
+  ],
+  "exercises": [
+    {
+      "answer_text": "SELECT * FROM payments LIMIT 10;",
+      "question_text": "List all the records in the payments table. Display only the first 10 rows of results.",
+      "sample": "https://o.quizlet.com/s6CRKkbrFMSNvYkUrbJm7w.png"
+    },
+    {
+      "answer_text": "SELECT check_number FROM payments LIMIT 10;",
+      "question_text": "Display all the values for check_number in the payments table.",
+      "sample": "https://o.quizlet.com/zRTojj3d1wCRR8ANC9TIiA.png"
+    },
+    {
+      "answer_text": "SELECT payment_date FROM payments LIMIT 10;",
+      "question_text": "Display all the values for payment_date in the payments",
+      "sample": "https://o.quizlet.com/3caCJrvcshSo30jHm4beqA.png"
+    },
+    {
+      "answer_text": "SELECT amount FROM payments LIMIT 10;",
+      "question_text": "Display all the values for amount in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT customer_number FROM payments LIMIT 10;",
+      "question_text": "Display all the values for customer_number in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT check_number FROM payments\nORDER BY check_number LIMIT 10;",
+      "question_text": "Display all the values for check_number in the payments table. Sort the results by check_number.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT check_number FROM payments\nORDER BY check_number DESC LIMIT 10;",
+      "question_text": "Display all the values for check_number in the payments table. Sort the results by check_number in descending order.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT payment_date FROM payments\nORDER BY payment_date LIMIT 10;",
+      "question_text": "Display all the values for payment_date in the payments table. Sort the results by payment_date.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT payment_date FROM payments\nORDER BY payment_date DESC LIMIT 10;",
+      "question_text": "Display all the values for payment_date in the payments table. Sort the results by payment_date in descending order.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT customer_number FROM payments\nORDER BY customer_number LIMIT 10;",
+      "question_text": "Display all the values for customer_number in the payments table. Sort the results by customer_number.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT customer_number FROM payments\nORDER BY customer_number DESC LIMIT 10;",
+      "question_text": "Display all the values for customer_number in the payments table. Sort the results by customer_number in descending order.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT check_number, payment_date FROM payments LIMIT 10;",
+      "question_text": "Display the values for check_number and payment_date in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT check_number, amount FROM payments LIMIT 10;",
+      "question_text": "Display the values for check_number and amount in the payments table. Display only hte first",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT check_number, customer_number FROM payments LIMIT 10;",
+      "question_text": "Display the values for check_number and customer_number in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT DISTINCT(customer_number) FROM payments LIMIT 10;",
+      "question_text": "Display a list of unique customer_number values in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT MIN(amount) AS \"smallest payment\" FROM payments;",
+      "question_text": "Display the smallest amount value in the payments table. Label the result 'Smallest Payment'.",
+      "sample": "https://o.quizlet.com/gbzIpu70s4EGxP1W9en9gw.png"
+    },
+    {
+      "answer_text": "SELECT MAX(amount) AS \"largest payment\" FROM payments;",
+      "question_text": "Display the largest amount value in the payments table. Label the result \"Largest Payment\"",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT AVG(amount) FROM payments LIMIT 10;",
+      "question_text": "Display the average amount value in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT MIN(payment_date) FROM payments LIMIT 10;",
+      "question_text": "Display the earliest payment_date value in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT MAX(payment_date) FROM payments LIMIT 10;",
+      "question_text": "Display the latest payment_date value in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT customer_number, SUM(amount) FROM payments\nGROUP BY customer_number LIMIT 10;",
+      "question_text": "Display the customer_number and the total payment amount assigned to that customer_number in the payments table. Display only the first 10 rows of results.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT customer_number, AVG(amount) FROM payments\nGROUP BY customer_number LIMIT 10;",
+      "question_text": "Display the customer_number and the average payment amount assigned to that customer_number in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT COUNT(*) FROM payments LIMIT 10;",
+      "question_text": "Calculate the number of rows in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT COUNT(DISTINCT(customer_number)) FROM payments\nLIMIT 10;",
+      "question_text": "Count the number of unique customer_number values in the payments table.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT customer_number FROM payments\nWHERE customer_number < 200 LIMIT 10;",
+      "question_text": "Display the customer_number values for those customer_numbers in the payments table that have values less than 200.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT customer_number FROM payments\nWHERE customer_number BETWEEN 200 AND 400 LIMIT 10;",
+      "question_text": "Display the customer_number values for those customer_numbers in the payments table that have values between 200 and 400.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT customer_number FROM payments\nWHERE customer_number > 400 LIMIT 10;",
+      "question_text": "Display the customer_number values for those customer_numbers in the payments table that have values greater than 400.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT payment_date FROM payments\nWHERE payment_date < '2003-12-31' LIMIT 10;",
+      "question_text": "Display the payment_date values for those records in the payments table in which the payment date is earlier than 12/31/2003.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT payment_date FROM payments\nWHERE payment_date BETWEEN '2003-12-31' AND '2004-12-31' LIMIT 10;",
+      "question_text": "Display the payment_date values for those records in the payments table in which the payment date is between 12/31/2003 and 12/31/2004.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT payment_date FROM payments\nWHERE payment_date = '2005-02-02' LIMIT 10;",
+      "question_text": "Display the payment_date values for those records in the payments table in which the payment date is 02/02/2005.",
+      "sample": null
+    },
+    {
+      "answer_text": "SELECT amount FROM payments\nWHERE amount < (SELECT AVG(amount) FROM payments)\nORDER BY amount DESC LIMIT 10;",
+      "question_text": "Display the amount values for those records in the payments table in which the amount values is less than the average amount value in the payments table. Sort the results by payment amount from highest to lowest amount. Display only the first 10 rows of results.",
+      "sample": "https://o.quizlet.com/5DWkLtdOZs8YyW2tsxwIFg.png"
+    },
+    {
+      "answer_text": "SELECT amount FROM payments\nWHERE amount > (SELECT AVG(amount) FROM payments) LIMIT 10;",
+      "question_text": "Display the amount values for those records in the payments table in which the amount values is less than the average amount value in the payments table.",
+      "sample": "https://o.quizlet.com/Ck4NbukWGQr7jYtxNIh8Tw.png"
+    },
+    {
+      "answer_text": "SELECT c.customer_name, p.payment_date, p.amount FROM customers c\nJOIN payments p ON p.customer_number = c.customer_number ORDER BY c.customer_name LIMIT 10;",
+      "question_text": "Display the customer_name, payment_date, and amount from the payments and customers tables. Display only the first 10 rows of results.",
+      "sample": "https://o.quizlet.com/HnwSdDqQSM0Y8KEjWMkCBg.png"
+    },
+    {
+      "answer_text": "SELECT c.customer_name, MAX(c.phone), MAX(p.payment_date)\nAS \"last payment date\"FROM customers c\nJOIN payments p ON p.customer_number = c.customer_number\nGROUP BY c.customer_name\nORDER BY c.customer_name\nLIMIT 10;",
+      "question_text": "Display the customer_name, phone and latest payment_date for each customer in the payments and customers tables. Label the latest payment_date column as Last Payment Date. Display only the first 10 rows of results.",
+      "sample": "https://o.quizlet.com/W4vipBaaF6RFUzbCINASsA.png"
+    },
+    {
+      "answer_text": "SELECT country, COUNT(*) FROM customers\nGROUP BY country\nORDER BY country LIMIT 10;",
+      "question_text": "Display a list of country values in the customers table along with the number of customers in each country. The list should be in alphabetical order. Display only the first 10 rows of results.",
+      "sample": "https://o.quizlet.com/B10JG13zKEFBysOzNao7bw.png"
+    },
+    {
+      "answer_text": "SELECT c.country, COUNT(p.check_number) AS \"payments\"\nFROM customers c\nJOIN payments p ON p.customer_number = c.customer_number\nGROUP BY c.country\nORDER BY c.country LIMIT 10;",
+      "question_text": "Display a list of country values in the customers table along with the number of payments for each country. Label the number of payments column 'payments'. The list should be in alphabetical order. Display only the first 10 rows of results.",
+      "sample": "https://o.quizlet.com/GgX38NsY35FfIktEvy-P9w.png"
+    },
+    {
+      "answer_text": "SELECT order_number, order_date FROM orders LIMIT 10;",
+      "question_text": "Display a list of order_number and order_date values from the orders table. Display only the first 10 rows of results.",
+      "sample": "https://o.quizlet.com/7L6-kqw3IxcfxfHwP.yQXg.png"
+    },
+    {
+      "answer_text": "SELECT c.customer_name, o.order_number, o.order_date\nFROM customers c\nJOIN orders o ON o.customer_number = c.customer_number\nLIMIT 10;",
+      "question_text": "Display the customer_name, order_number, and order_date values from the customers and orders tables. Display only the first 10 rows of results.",
+      "sample": "https://o.quizlet.com/Yupt4zHi2qDcscAwZHwPNQ.png"
+    },
+    {
+      "answer_text": "SELECT o.order_number, o.order_date,\nTO_CHAR(SUM(od.quantity_ordered*od.price_each),'999,999,999.00')\nAS \"order value\"\nFROM orders o\nJOIN order_details od ON od.order_number = o.order_number\nGROUP BY o.order_number LIMIT 10;",
+      "question_text": "Display the order_number, order_date, and value of each order from the orders and order_details tables. The value of each order is calculated by multiplying quantity_ordered by price_each. Label the calculated column \"Order Value\". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.",
+      "sample": "https://o.quizlet.com/dMujZr6rV6PsGluxPZgsTw.png"
+    },
+    {
+      "answer_text": "SELECT MAX(c.customer_name), o.order_number,\nTO_CHAR(SUM(od.quantity_ordered*od.price_each),'999,999,999.00')\nAS \"order value\" FROM customers c\nJOIN orders o ON o.customer_number = c.customer_number\nJOIN order_details od ON od.order_number = o.order_number\nGROUP BY o.order_number LIMIT 10;",
+      "question_text": "Display the customer_name, order_number, and value of each order from the orders and order_details tables. The value of each order is calculated by multiplying quantity_ordered by price_each. Label the calculated column \"Order Value\". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.",
+      "sample": "https://o.quizlet.com/m5sTr4KmhbbbsnE57h0tww.png"
+    },
+    {
+      "answer_text": "SELECT c.customer_name,\nTO_CHAR(SUM(od.quantity_ordered*od.price_each),'999,999,999,00')\nAS \"value of all orders\"\nFROM customers c\nJOIN orders o ON o.customer_number = c.customer_number\nJOIN order_details od ON od.order_number = o.order_number\nGROUP BY c.customer_number\nLIMIT 10;",
+      "question_text": "Display the customer_name, and value of all orders made by that customer. The value of each order is calculated by multiplying quantity_ordered by price_each. Label the calculated column \"Value of All orders\". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.",
+      "sample": "https://o.quizlet.com/Uzj3WcJaFY-GsFt7m3PT8A.png"
+    },
+    {
+      "answer_text": "SELECT o.customer_number, od.order_number, pr.product_name\nFROM order_details od\nJOIN products pr ON pr.product_code = od.product_code\nJOIN orders o ON o.order_number = od.order_number LIMIT 10;",
+      "question_text": "Display the customer_number, order_number, and product_name values for each order using the orders, order_details, and products tables. Display only the first ten results.",
+      "sample": "https://o.quizlet.com/b.oHVecKN8tuPLmoGzuxzA.png"
+    },
+    {
+      "answer_text": "SELECT e.last_name, b.last_name FROM employees e\nJOIN employees b ON e.reports_to = b.employee_number\nLIMIT 10;",
+      "question_text": "Display the last_name of each Employee followed by the last_name of the Employee they report to. Display only the first ten results.",
+      "sample": "https://o.quizlet.com/WPhr2nvxHjwWkMkeNLekxg.png"
+    },
+    {
+      "answer_text": "SELECT b.first_name, b.last_name, e.first_name, e.last_name\nFROM employees e\nJOIN employees b ON e.reports_to = b.employee_number\nORDER BY b.last_name\nLIMIT 10;",
+      "question_text": "Display the first_name and last_name of each manager followed by the first_name and last_name of each employee they supervise. Sort the results by the last_name of each manager. Display only the first ten results.",
+      "sample": "https://o.quizlet.com/dgEr6APvgECz8u6xWIPvbg.png"
+    }
+  ]
+}

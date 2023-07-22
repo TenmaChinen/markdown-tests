@@ -13,6 +13,7 @@ for idx in range(1,45):
     func = getattr( eq, f'get_exercise_{idx}' )
     df = func()
     
+    print(idx)
     img_pil = df_to_image(df=df)
-    file_name = f'images/sample_{idx:02d}.png'
+    file_name = f'../images/sample_{idx:02d}.png'
     img_pil.save(file_name)

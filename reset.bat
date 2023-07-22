@@ -1,0 +1,1 @@
+clear_db && py manage.py makemigrations && py manage.py migrate

@@ -14,6 +14,7 @@ for idx in range(1,45):
     df = func()
     
     print(idx)
+    # print(df)
     img_pil = df_to_image(df=df)
     file_name = f'../images/sample_{idx:02d}.png'
     img_pil.save(file_name)

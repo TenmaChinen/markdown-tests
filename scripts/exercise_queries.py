@@ -132,9 +132,9 @@ def get_exercise_12():
     from django.db.models import F
 
     query = Payment.objects.all()
-    query = query.annotate(customer_number=F('customer__customer_number'))
+    # query = query.annotate(customer_number=F('check_number'))
     query = query[0:10]
-    query = query.values('customer_number', 'payment_date')
+    query = query.values('check_number', 'payment_date')
     df = DataFrame(data=query)
     return df
 
@@ -682,7 +682,7 @@ def get_exercise_44():
 
 if __name__ == '__main__':
 
-    for idx in [44]:
+    for idx in [12]:
         # for idx in range(1,45):
         func = eval(f'get_exercise_{idx}')
         df = func()

@@ -9,7 +9,8 @@ import exercise_queries as eq
 set_option('display.max_columns', 1000)
 set_option('display.width', 2000)
 
-for idx in range(1,45):
+# for idx in range(1,45):
+for idx in [12]:
     func = getattr( eq, f'get_exercise_{idx}' )
     df = func()
     

@@ -1,6 +1,5 @@
 from PIL import Image, ImageFont, ImageDraw
 import exercise_queries as eq
-import re
 
 def text_to_image( text, size=30 ):
 
@@ -24,16 +23,16 @@ def text_to_image( text, size=30 ):
 
 
 # for idx in range(1,45):
-for idx in range(1,45):
+for idx in [13]:
     sql = getattr( eq, f'get_exercise_{idx}' )()
     output = eq.execute_sql(sql=sql)
-    output = re.sub(pattern=r'\n\([0-9]{1,4} rows\)', repl='', string=output)
+
     print(f'Index : {idx}\n')
     # print(output)
     img_pil = text_to_image(text=output)
-    # img_pil.show()
+    img_pil.show()
 
-    # break
+    break
 
     file_name = f'../images/sample_{idx:02d}.png'
     img_pil.save(file_name)

@@ -1,4 +1,182 @@
 {
+  "exercises": [
+    {
+      "question_text": "List all the records in the payments table.\nDisplay only the first 10 rows of results.",
+      "index": 1
+    },
+    {
+      "question_text": "Display only the 10 first values for check_number in the payments table.",
+      "index": 2
+    },
+    {
+      "question_text": "Display only the 10 first values for payment_date in the payments",
+      "index": 3
+    },
+    {
+      "question_text": "Display only the 10 first values for amount in the payments table.",
+      "index": 4
+    },
+    {
+      "question_text": "Display only the 10 first values for customer_number in the payments table.",
+      "index": 5
+    },
+    {
+      "question_text": "Display only the 10 first values for check_number in the payments table.\nSort the results by check_number.",
+      "index": 6
+    },
+    {
+      "question_text": "Display only the 10 first values for check_number in the payments table.\nSort the results by check_number in descending order.",
+      "index": 7
+    },
+    {
+      "question_text": "Display only the 10 first values for payment_date in the payments table.\nSort the results by payment_date.",
+      "index": 8
+    },
+    {
+      "question_text": "Display only the 10 first values for payment_date in the payments table.\nSort the results by payment_date in descending order.",
+      "index": 9
+    },
+    {
+      "question_text": "Display only the 10 first values for customer_number in the payments table.\nSort the results by customer_number.",
+      "index": 10
+    },
+    {
+      "question_text": "Display only the 10 first values for customer_number in the payments table.\nSort the results by customer_number in descending order.",
+      "index": 11
+    },
+    {
+      "question_text": "Display the values for check_number and payment_date in the payments table.",
+      "index": 12
+    },
+    {
+      "question_text": "Display the values for check_number and amount in the payments table.\nDisplay only the first",
+      "index": 13
+    },
+    {
+      "question_text": "Display the values for check_number and customer_number in the payments table.",
+      "index": 14
+    },
+    {
+      "question_text": "Display a list of unique customer_number values in the payments table.",
+      "index": 15
+    },
+    {
+      "question_text": "Display the smallest amount value in the payments table.\nLabel the result 'Smallest Payment'.",
+      "index": 16
+    },
+    {
+      "question_text": "Display the largest amount value in the payments table.\nLabel the result \"Largest Payment\"",
+      "index": 17
+    },
+    {
+      "question_text": "Display the average amount value in the payments table.",
+      "index": 18
+    },
+    {
+      "question_text": "Display the earliest payment_date value in the payments table.",
+      "index": 19
+    },
+    {
+      "question_text": "Display the latest payment_date value in the payments table.",
+      "index": 20
+    },
+    {
+      "question_text": "Display the customer_number and the total payment amount assigned to that customer_number in the payments table.\nDisplay only the first 10 rows of results.",
+      "index": 21
+    },
+    {
+      "question_text": "Display the customer_number and the average payment amount assigned to that customer_number in the payments table.",
+      "index": 22
+    },
+    {
+      "question_text": "Calculate the number of rows in the payments table.",
+      "index": 23
+    },
+    {
+      "question_text": "Count the number of unique customer_number values in the payments table.",
+      "index": 24
+    },
+    {
+      "question_text": "Display the customer_number values for those customer_numbers in the payments table that have values less than 200.",
+      "index": 25
+    },
+    {
+      "question_text": "Display the customer_number values for those customer_numbers in the payments table that have values between 200 and 400.",
+      "index": 26
+    },
+    {
+      "question_text": "Display the customer_number values for those customer_numbers in the payments table that have values greater than 400.",
+      "index": 27
+    },
+    {
+      "question_text": "Display the payment_date values for those records in the payments table in which the payment date is earlier than 12/31/2003.",
+      "index": 28
+    },
+    {
+      "question_text": "Display the payment_date values for those records in the payments table in which the payment date is between 12/31/2003 and 12/31/2004.",
+      "index": 29
+    },
+    {
+      "question_text": "Display the payment_date values for those records in the payments table in which the payment date is 02/02/2005.",
+      "index": 30
+    },
+    {
+      "question_text": "Display the amount values for those records in the payments table in which the amount values is less than the average amount value in the payments table.\nSort the results by payment amount from highest to lowest amount.\nDisplay only the first 10 rows of results.",
+      "index": 31
+    },
+    {
+      "question_text": "Display the amount values for those records in the payments table in which the amount values is less than the average amount value in the payments table.",
+      "index": 32
+    },
+    {
+      "question_text": "Display the customer_name, payment_date, and amount from the payments and customers tables.\nDisplay only the first 10 rows of results.",
+      "index": 33
+    },
+    {
+      "question_text": "Display the customer_name, phone and latest payment_date for each customer in the payments and customers tables.\nLabel the latest payment_date column as Last Payment Date.\nDisplay only the first 10 rows of results.",
+      "index": 34
+    },
+    {
+      "question_text": "Display a list of country values in the customers table along with the number of customers in each country.\nThe list should be in alphabetical order.\nDisplay only the first 10 rows of results.",
+      "index": 35
+    },
+    {
+      "question_text": "Display a list of country values in the customers table along with the number of payments for each country.\nLabel the number of payments column 'payments'.\nThe list should be in alphabetical order.\nDisplay only the first 10 rows of results.",
+      "index": 36
+    },
+    {
+      "question_text": "Display a list of order_number and order_date values from the orders table.\nDisplay only the first 10 rows of results.",
+      "index": 37
+    },
+    {
+      "question_text": "Display the customer_name, order_number, and order_date values from the customers and orders tables.\nDisplay only the first 10 rows of results.",
+      "index": 38
+    },
+    {
+      "question_text": "Display the order_number, order_date, and value of each order from the orders and order_details tables.\nThe value of each order is calculated by multiplying quantity_ordered by price_each.\nLabel the calculated column \"Order Value\". Format the order value column so that only two digits are displayed after the decimal point. Display only the first 10 results.",
+      "index": 39
+    },
+    {
+      "question_text": "Display the customer_name, order_number, and value of each order from the orders and order_details tables.\nThe value of each order is calculated by multiplying quantity_ordered by price_each.\nLabel the calculated column \"Order Value\". Format the order value column so that only two digits are displayed after the decimal point.\nDisplay only the first 10 results.",
+      "index": 40
+    },
+    {
+      "question_text": "Display the customer_name, and value of all orders made by that customer.\nThe value of each order is calculated by multiplying quantity_ordered by price_each.\nLabel the calculated column \"Value of All orders\". Format the order value column so that only two digits are displayed after the decimal point.\nDisplay only the first 10 results.",
+      "index": 41
+    },
+    {
+      "question_text": "Display the customer_number, order_number, and product_name values for each order using the orders, order_details, and products tables.\nDisplay only the first 10 results.",
+      "index": 42
+    },
+    {
+      "question_text": "Display the last_name of each Employee followed by the last_name of the Employee they report to.\nDisplay only the first 10 results.",
+      "index": 43
+    },
+    {
+      "question_text": "Display the first_name and last_name of each manager followed by the first_name and last_name of each employee they supervise. Sort the results by the last_name of each manager.\nDisplay only the first 10 results.",
+      "index": 44
+    }
+  ],
   "tables": [
     "sqlite_sequence",
     "offices",
@@ -59,183 +237,5 @@
     "territory",
     "customer_number",
     "order_date"
-  ],
-  "exercises": [
-    {
-      "question_text": "List all the records in the payments table. Display only the first 10 rows of results.",
-      "index": 1
-    },
-    {
-      "question_text": "Display all the values for check_number in the payments table.",
-      "index": 2
-    },
-    {
-      "question_text": "Display all the values for payment_date in the payments",
-      "index": 3
-    },
-    {
-      "question_text": "Display all the values for amount in the payments table.",
-      "index": 4
-    },
-    {
-      "question_text": "Display all the values for customer_number in the payments table.",
-      "index": 5
-    },
-    {
-      "question_text": "Display all the values for check_number in the payments table. Sort the results by check_number.",
-      "index": 6
-    },
-    {
-      "question_text": "Display all the values for check_number in the payments table. Sort the results by check_number in descending order.",
-      "index": 7
-    },
-    {
-      "question_text": "Display all the values for payment_date in the payments table. Sort the results by payment_date.",
-      "index": 8
-    },
-    {
-      "question_text": "Display all the values for payment_date in the payments table. Sort the results by payment_date in descending order.",
-      "index": 9
-    },
-    {
-      "question_text": "Display all the values for customer_number in the payments table. Sort the results by customer_number.",
-      "index": 10
-    },
-    {
-      "question_text": "Display all the values for customer_number in the payments table. Sort the results by customer_number in descending order.",
-      "index": 11
-    },
-    {
-      "question_text": "Display the values for check_number and payment_date in the payments table.",
-      "index": 12
-    },
-    {
-      "question_text": "Display the values for check_number and amount in the payments table. Display only hte first",
-      "index": 13
-    },
-    {
-      "question_text": "Display the values for check_number and customer_number in the payments table.",
-      "index": 14
-    },
-    {
-      "question_text": "Display a list of unique customer_number values in the payments table.",
-      "index": 15
-    },
-    {
-      "question_text": "Display the smallest amount value in the payments table. Label the result 'Smallest Payment'.",
-      "index": 16
-    },
-    {
-      "question_text": "Display the largest amount value in the payments table. Label the result \"Largest Payment\"",
-      "index": 17
-    },
-    {
-      "question_text": "Display the average amount value in the payments table.",
-      "index": 18
-    },
-    {
-      "question_text": "Display the earliest payment_date value in the payments table.",
-      "index": 19
-    },
-    {
-      "question_text": "Display the latest payment_date value in the payments table.",
-      "index": 20
-    },
-    {
-      "question_text": "Display the customer_number and the total payment amount assigned to that customer_number in the payments table. Display only the first 10 rows of results.",
-      "index": 21
-    },
-    {
-      "question_text": "Display the customer_number and the average payment amount assigned to that customer_number in the payments table.",
-      "index": 22
-    },
-    {
-      "question_text": "Calculate the number of rows in the payments table.",
-      "index": 23
-    },
-    {
-      "question_text": "Count the number of unique customer_number values in the payments table.",
-      "index": 24
-    },
-    {
-      "question_text": "Display the customer_number values for those customer_numbers in the payments table that have values less than 200.",
-      "index": 25
-    },
-    {
-      "question_text": "Display the customer_number values for those customer_numbers in the payments table that have values between 200 and 400.",
-      "index": 26
-    },
-    {
-      "question_text": "Display the customer_number values for those customer_numbers in the payments table that have values greater than 400.",
-      "index": 27
-    },
-    {
-      "question_text": "Display the payment_date values for those records in the payments table in which the payment date is earlier than 12/31/2003.",
-      "index": 28
-    },
-    {
-      "question_text": "Display the payment_date values for those records in the payments table in which the payment date is between 12/31/2003 and 12/31/2004.",
-      "index": 29
-    },
-    {
-      "question_text": "Display the payment_date values for those records in the payments table in which the payment date is 02/02/2005.",
-      "index": 30
-    },
-    {
-      "question_text": "Display the amount values for those records in the payments table in which the amount values is less than the average amount value in the payments table. Sort the results by payment amount from highest to lowest amount. Display only the first 10 rows of results.",
-      "index": 31
-    },
-    {
-      "question_text": "Display the amount values for those records in the payments table in which the amount values is less than the average amount value in the payments table.",
-      "index": 32
-    },
-    {
-      "question_text": "Display the customer_name, payment_date, and amount from the payments and customers tables. Display only the first 10 rows of results.",
-      "index": 33
-    },
-    {
-      "question_text": "Display the customer_name, phone and latest payment_date for each customer in the payments and customers tables. Label the latest payment_date column as Last Payment Date. Display only the first 10 rows of results.",
-      "index": 34
-    },
-    {
-      "question_text": "Display a list of country values in the customers table along with the number of customers in each country. The list should be in alphabetical order. Display only the first 10 rows of results.",
-      "index": 35
-    },
-    {
-      "question_text": "Display a list of country values in the customers table along with the number of payments for each country. Label the number of payments column 'payments'. The list should be in alphabetical order. Display only the first 10 rows of results.",
-      "index": 36
-    },
-    {
-      "question_text": "Display a list of order_number and order_date values from the orders table. Display only the first 10 rows of results.",
-      "index": 37
-    },
-    {
-      "question_text": "Display the customer_name, order_number, and order_date values from the customers and orders tables. Display only the first 10 rows of results.",
-      "index": 38
-    },
-    {
-      "question_text": "Display the order_number, order_date, and value of each order from the orders and order_details tables. The value of each order is calculated by multiplying quantity_ordered by price_each. Label the calculated column \"Order Value\". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.",
-      "index": 39
-    },
-    {
-      "question_text": "Display the customer_name, order_number, and value of each order from the orders and order_details tables. The value of each order is calculated by multiplying quantity_ordered by price_each. Label the calculated column \"Order Value\". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.",
-      "index": 40
-    },
-    {
-      "question_text": "Display the customer_name, and value of all orders made by that customer. The value of each order is calculated by multiplying quantity_ordered by price_each. Label the calculated column \"Value of All orders\". Format the order value column so that only two digits are displayed after the decimal point. Display only the first ten results.",
-      "index": 41
-    },
-    {
-      "question_text": "Display the customer_number, order_number, and product_name values for each order using the orders, order_details, and products tables. Display only the first ten results.",
-      "index": 42
-    },
-    {
-      "question_text": "Display the last_name of each Employee followed by the last_name of the Employee they report to. Display only the first ten results.",
-      "index": 43
-    },
-    {
-      "question_text": "Display the first_name and last_name of each manager followed by the first_name and last_name of each employee they supervise. Sort the results by the last_name of each manager. Display only the first ten results.",
-      "index": 44
-    }
   ]
 }

@@ -1,4 +1,4 @@
-import subprocess, json
+import subprocess, json, re
 
 def execute_sql(sql):
     sql = sql.replace('"','\\"').replace('\n',' ')
@@ -9,7 +9,8 @@ def execute_sql(sql):
     )
 
     stdout, stderr = result.communicate()
-    output = stdout.decode('utf-8').replace('\r','').rstrip()    
+    output = stdout.decode('utf-8').replace('\r','').rstrip()
+    output = re.sub(pattern=r'\n\([0-9]{1,4} rows?\)', repl='', string=output)
     return output
 
 def get_exercise_1():

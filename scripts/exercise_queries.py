@@ -132,7 +132,6 @@ def get_exercise_12():
     from django.db.models import F
 
     query = Payment.objects.all()
-    # query = query.annotate(customer_number=F('check_number'))
     query = query[0:10]
     query = query.values('check_number', 'payment_date')
     df = DataFrame(data=query)

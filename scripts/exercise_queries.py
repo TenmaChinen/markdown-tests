@@ -452,7 +452,7 @@ def get_exercise_32():
     result = Payment.objects.aggregate(average_amount=Avg('amount'))
     average_amount = result['average_amount']
 
-    query = Payment.objects.filter(amount__gt=average_amount)
+    query = Payment.objects.filter(amount__lt=average_amount)
     query = query.values('amount')
     query = query[0:10]
 
@@ -491,7 +491,7 @@ def get_exercise_34():
         phone=Max('customer__phone'),
         payment_date=Max('payment_date')
     )
-    query = query.order_by(Lower('customer__customer_number'))
+    
     query = query[0:10]
 
     df = DataFrame(data=query)
@@ -681,7 +681,7 @@ def get_exercise_44():
 
 if __name__ == '__main__':
 
-    for idx in [12]:
+    for idx in [32]:
         # for idx in range(1,45):
         func = eval(f'get_exercise_{idx}')
         df = func()

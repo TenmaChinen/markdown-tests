@@ -912,7 +912,7 @@ from django.db.models import Avg
 result = Payment.objects.aggregate(average_amount=Avg('amount'))
 average_amount = result['average_amount']
 
-query = Payment.objects.filter(amount__gt=average_amount)
+query = Payment.objects.filter(amount__lt=average_amount)
 query = query.values('amount')
 query = query[0:10]
 
@@ -980,7 +980,7 @@ query = query.annotate(
     phone=Max('customer__phone'),
     payment_date=Max('payment_date')
 )
-query = query.order_by(Lower('customer__customer_number'))
+
 query = query[0:10]
 
 df = DataFrame(data=query)

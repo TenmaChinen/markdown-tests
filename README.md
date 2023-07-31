@@ -9,4 +9,4 @@ Educational database to demonstrate relational databases, SQL queries, and data 
 #### [PostgreSQL Test](https://github.com/TenmaChinen/markdown-tests/blob/postgres-sql/README.md)
 #### [Django Test](https://github.com/TenmaChinen/markdown-tests/blob/django/README.md)
 
-![classic_models_diagram](https://github.com/TenmaChinen/markdown-tests/assets/36393143/f5ffa580-b4e0-4c9b-8193-69d554ff0c45)
+![classic_models_diagram](images/classic_models_diagram.png)
